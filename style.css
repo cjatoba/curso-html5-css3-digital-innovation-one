@@ -9,6 +9,17 @@ body {
 
 #title, .subtitle, .post_title {
     color: #545454;
+    font-family: verdana;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #545454;
 }
 
 .post_title {
@@ -29,6 +40,7 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image {
